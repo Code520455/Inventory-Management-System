@@ -30,23 +30,23 @@ The system allows users to:
 
 ## 📂 Project Structure
 electronics_inventory/
--│
--├── app.py # Main application (App class)
--├── component.py # Component base class + subclasses
--├── circuit.py # Circuit base class + subclasses
--├── menu.py # Menu handling class
--│
--├── test_component.py # Unit tests for Component classes
--├── test_circuit.py # Unit tests for Circuit classes
--│
--├── components.csv # Component database file
--├── circuits.csv # Circuit database file
+
+-app.py # Main application (App class)
+-component.py # Component base class + subclasses
+-circuit.py # Circuit base class + subclasses
+-menu.py # Menu handling class
+
+-test_component.py # Unit tests for Component classes
+-test_circuit.py # Unit tests for Circuit classes
+
+-components.csv # Component database file
+-circuits.csv # Circuit database file
 -│
 -├── uml_diagram.png
 
 ## How to run
 - Clone or unzip the project folder.
 - Open a terminal inside the directory.
-  -Run:
-  -python app.py
+-Run:
+-python app.py
 -Follow on-screen menus to manage inventory.
